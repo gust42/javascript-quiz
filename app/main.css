@@ -1,0 +1,105 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: #717171;
+    color: #fff;
+    font-family: Lucida Grande,Tahoma,Verdana;
+    font-family: 'Offside', cursive;
+    font-family: 'Montaga', serif;
+    
+    background:
+        linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+        linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+        linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+        linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+        linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+        linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+a,a:visited {
+    color:#fff;
+}
+
+#content {
+    
+    width:500px;   
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color:#000;
+}
+
+.question {
+    background-color: #ECE3EA;
+    border-radius: 4px 4px 0px 0px;;
+    box-shadow: 0 3px 10px rgba(0,0,0,.5);
+    border:1px solid #333;
+    border-bottom:none;
+    padding:20px;
+    text-align: center;
+}
+
+.answer {
+    float:left;
+    width:33.333%;
+    background-color: #89577D;
+    padding:20px;
+    border:1px solid #333;
+    border-right: none;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.5);
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.result {
+    padding:20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.5);
+    border-radius: 4px;
+    clear:both;
+    color:#fff;
+    text-align: center;
+    display: none;
+}
+
+.correct {
+    background-color: #00cc00;
+    display: block;
+}
+
+.wrong {
+    background-color: #cc0000; 
+    display: block;
+}
+
+.answer:last-child {
+    border-right:1px solid #04284A;
+}
+
+.answer:hover {
+    background-color: #8A126C;
+}
+
+footer {
+    background-color: rgba(255,255,255,0.2);
+    width: 100%;
+    position: fixed;
+    bottom:0px;
+    padding:10px;
+    box-shadow: 0 -3px 10px rgba(0,0,0,.5);
+    text-align: center;
+}
